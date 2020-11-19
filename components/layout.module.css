@@ -1,0 +1,45 @@
+.outercontainer {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.middlecontainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+.innercontainer {
+    flex: 1;
+    overflow: auto;
+}
+
+.navbar {
+    background-color:teal;
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbarspacer {
+    flex: 1;
+}
+
+.navbar button {
+    background-color: lightblue;
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+.sidebar{
+    background-color:teal;
+    height: 100%;
+    width: 200px;
+}
