@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Todolist() {
     
-    const [ todos, setTodos ] = useState(['Clean Desk', 'Learn Caching', 'CDN Networks', 'master/slave database', 'Database sharding', 'Scripts for convenience', 'research/practice async/await']);
+    const [ todos, setTodos ] = useState([]);
     const [ newTodo, setNewTodo ] = useState('');
 
     function handleOnChange(e) {
@@ -21,12 +21,17 @@ export default function Todolist() {
         setNewTodo('');
     }
 
+    function clearTodos() {
+        setTodos([]);
+    }
+
     return(
         <div className={styles.container}>
             <main>
             <div className={utilStyles.todolist}>
                 <div>
                     <h3 style={{ margin: '.5rem' }}>To Do List</h3>
+                    <button onClick={clearTodos}>Clear list</button>
                     <form onSubmit={handleOnSubmit}>
                         <input 
                             className={utilStyles.search} 

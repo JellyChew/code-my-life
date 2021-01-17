@@ -5,18 +5,30 @@
 }
 
 .todoitem {
-    background-color: teal;
     font-size: 1rem;
     border-radius: 20px;
     border-color: black;
     padding: 0.1rem 1rem;
     margin: 0.5rem;
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.todoitem:hover {
-    background-color: cyan;
+.todoitem button {
+    background-color: white;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    transition: transform 0.1s linear;
+}
+
+.todoitem button:active {
+    transform: scale(0.98);
+}
+
+.todoitem button:focus {
+    outline: none;
 }
 
 .listcontainer {
@@ -55,4 +67,8 @@
     background-color: yellow;
     height: 100%;
     width: 200px;
+}
+
+.spacer{
+    flex: 1;
 }
