@@ -14,7 +14,7 @@ export default function Home() {
 
         <main>
           <h1 className={styles.title}>
-            Welcome to Jelly's Code My Life!
+            ~ Code My Life ~
           </h1>
 
           <Todolist />

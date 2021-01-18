@@ -22,7 +22,7 @@ export default function layout({ children }) {
             <div className={styles.navbar}>
                 <button onClick={handleSidebar}>☰</button>
                 <div className={styles.navbarspacer}></div>
-                <p>this is a navbar!</p>
+                <p>Filler for links/account info and "whats new?" section</p>
             </div>
             <div className={styles.middlecontainer}>
                 {(showSidebar && 

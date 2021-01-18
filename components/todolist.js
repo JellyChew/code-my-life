@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 export default function Todolist() {
     
+    const [ dailies, setDailies ] = useState([ 'wake up early', 'problem', 'exercise', 'shower early', 'daily project']);
     const [ todos, setTodos ] = useState([]);
     const [ newTodo, setNewTodo ] = useState('');
 
@@ -29,9 +30,11 @@ export default function Todolist() {
         <div className={styles.container}>
             <main>
             <div className={utilStyles.todolist}>
-                <div>
-                    <h3 style={{ margin: '.5rem' }}>To Do List</h3>
-                    <button onClick={clearTodos}>Clear list</button>
+                <h3 style={{ margin: '.5rem' }}>Dailies</h3>
+                    {dailies.map((daily) => <Todoitem item={daily} />)}
+                <div className={utilStyles.todotitle}>
+                    <h3 style={{ margin: '.5rem' }}>To do list</h3>
+                    <div className={utilStyles.spacer}></div>
                     <form onSubmit={handleOnSubmit}>
                         <input 
                             className={utilStyles.search} 
@@ -41,8 +44,8 @@ export default function Todolist() {
                             onChange={handleOnChange}
                         />
                     </form>
+                    <button onClick={clearTodos}>Clear list</button>
                 </div>
-
                 {todos.map((todo) => <Todoitem item={todo} />)}
             </div>
             </main>
