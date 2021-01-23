@@ -16,6 +16,12 @@ export default function Home() {
           <h1 className={styles.title}>
             ~ Code My Life ~
           </h1>
+          <h3>
+            I can't fucking believe you can look at yourself in the mirror every morning, realize how fucking mediocre you are, and continue on like everything is okay
+          </h3>
+          <h3>
+            I know you can do better, that's why I'm so fucking mad
+          </h3>
 
           <Todolist />
           
