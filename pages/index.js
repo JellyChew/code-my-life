@@ -17,10 +17,10 @@ export default function Home() {
             ~ Code My Life ~
           </h1>
           <h3>
-            I can't fucking believe you can look at yourself in the mirror every morning, realize how fucking mediocre you are, and continue on like everything is okay
+            Reminders: Stop swearing, sleep well, use bidet, good posture, don't multitask
           </h3>
           <h3>
-            I know you can do better, that's why I'm so fucking mad
+            "Success is found in the work you're avoiding"
           </h3>
 
           <Todolist />
