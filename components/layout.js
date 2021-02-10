@@ -1,6 +1,7 @@
 import styles from './layout.module.css'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Swal from 'sweetalert2'
 
 export default function layout({ children }) {
 
@@ -17,12 +18,20 @@ export default function layout({ children }) {
     function handleSidebar() {
         setShowSidebar(!showSidebar);
     }
+
+    let updateMsg = 'Added "whats new?" feature'
+
+    function whatsNew() {
+        Swal.fire(updateMsg)
+    }
+
     return (
         <div className={styles.outercontainer}>
             <div className={styles.navbar}>
                 <button onClick={handleSidebar}>☰</button>
                 <div className={styles.navbarspacer}></div>
-                <p>Filler for links/account info and "whats new?" section</p>
+                <button onClick={whatsNew}>What's New?</button>
+                <p>filler for account info and other</p>
             </div>
             <div className={styles.middlecontainer}>
                 {(showSidebar && 
