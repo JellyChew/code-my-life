@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css'
 import Todolist from '../components/todolist'
 import Layout from '../components/layout'
 
-export default function Home() {
 
+export default function Home() {
   return (
     <Layout>
       <div className={styles.container}>
