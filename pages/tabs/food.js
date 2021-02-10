@@ -22,7 +22,8 @@ export default function Food() {
             ['Kimchi Fried Rice', 'Lf44Fk7H24s'],
             ['Braised Short Ribs | Basics with Babish', 'DUTyGfwdBaY'],
             ['My favorite chicken and rice dish: Biryani', 'on4IhB8VItY'],
-            ['State Fair Lemonade', '_YYF9vBLzGU']
+            ['State Fair Lemonade', '_YYF9vBLzGU'],
+            ['Extra Crispy Baked Wings', 'mh2AXh1eRmE']
         ]);
 
     return (
