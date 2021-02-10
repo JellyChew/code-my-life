@@ -22,7 +22,11 @@ export default function layout({ children }) {
     let updateMsg = 'Added "whats new?" feature'
 
     function whatsNew() {
-        Swal.fire(updateMsg)
+        Swal.fire({
+            icon: 'question',
+            title: 'Whats new?',
+            text: updateMsg
+        })
     }
 
     return (
