@@ -17,7 +17,7 @@ export default function Home() {
             ~ Code My Life ~
           </h1>
           <h3>
-            Reminders: Stop swearing, sleep well, use bidet, good posture, don't multitask, speak slower
+            Reminders: Stop swearing, sleep well, good posture, don't multitask, speak slower
           </h3>
           <h3>
             "Success is found in the work you're avoiding"

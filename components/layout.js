@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'Added "whats new?" feature'
+    let updateMsg = 'content update! edited reminders, new daily'
 
     function whatsNew() {
         Swal.fire({
