@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update! edited reminders, new daily'
+    let updateMsg = 'content update! shuffled dailies, checkup after icloud fix'
 
     function whatsNew() {
         Swal.fire({
