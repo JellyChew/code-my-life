@@ -25,6 +25,9 @@ export default function Home() {
           <h3>
             "Arm yourself because nobody else here will save you"
           </h3>
+          <h3>
+            "You can make any excuses you want, but you're the one who decides how to live your life"
+          </h3>
 
           <Todolist />
           

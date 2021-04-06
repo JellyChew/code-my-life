@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update! shuffled dailies, checkup after icloud fix'
+    let updateMsg = 'content update: new quote!'
 
     function whatsNew() {
         Swal.fire({
