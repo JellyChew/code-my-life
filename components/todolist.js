@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Todolist() {
     
-    let dailies = [ 'wake up early', 'morning brush', 'skincare', 'sunshine and supplements', 'problem', 'exercise', 'shower early', 'daily project' ]
+    let dailies = [ 'wake up early', 'morning brush', 'self-maintenance', 'sunshine and supplements', 'problem', 'exercise', 'shower early', 'daily project' ]
     const [ todos, setTodos ] = useState([]);
     const [ newTodo, setNewTodo ] = useState('');
 
@@ -30,8 +30,10 @@ export default function Todolist() {
         <div className={styles.container}>
             <main>
             <div className={utilStyles.todolist}>
+
                 <h3 style={{ margin: '.5rem' }}>Dailies</h3>
-                    {dailies.map((daily) => <Todoitem item={daily} />)}
+                {dailies.map((daily) => <Todoitem item={daily} />)}
+
                 <div className={utilStyles.todotitle}>
                     <h3 style={{ margin: '.5rem' }}>To do list</h3>
                     <div className={utilStyles.spacer}></div>
