@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update: new quote!'
+    let updateMsg = 'content update: art and regex dailies added!'
 
     function whatsNew() {
         Swal.fire({
