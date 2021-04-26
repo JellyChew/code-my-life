@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update: art and regex dailies added!'
+    let updateMsg = 'content update: reordered dailies, tuna salad video added to food!'
 
     function whatsNew() {
         Swal.fire({

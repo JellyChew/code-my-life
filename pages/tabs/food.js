@@ -23,7 +23,8 @@ export default function Food() {
             ['Braised Short Ribs | Basics with Babish', 'DUTyGfwdBaY'],
             ['My favorite chicken and rice dish: Biryani', 'on4IhB8VItY'],
             ['State Fair Lemonade', '_YYF9vBLzGU'],
-            ['Extra Crispy Baked Wings', 'mh2AXh1eRmE']
+            ['Extra Crispy Baked Wings', 'mh2AXh1eRmE'],
+            ['Tuna, Egg, and Chicken Salad', 'wSn8Yzz_QbA']
         ]);
 
     return (

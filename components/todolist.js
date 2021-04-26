@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function Todolist() {
     
     let dailies = [ 'wake up early', 'morning brush', 'self-maintenance', 'sunshine and supplements', 'problem', 
-        'daily regular expression exercise', 'draw some', 'exercise', 'shower early', 'daily project' ]
+    'daily regular expression exercise', 'daily project', 'exercise', 'shower early', 'draw some' ]
     const [ todos, setTodos ] = useState([]);
     const [ newTodo, setNewTodo ] = useState('');
 
