@@ -24,7 +24,9 @@ export default function Food() {
             ['My favorite chicken and rice dish: Biryani', 'on4IhB8VItY'],
             ['State Fair Lemonade', '_YYF9vBLzGU'],
             ['Extra Crispy Baked Wings', 'mh2AXh1eRmE'],
-            ['Tuna, Egg, and Chicken Salad', 'wSn8Yzz_QbA']
+            ['Tuna, Egg, and Chicken Salad', 'wSn8Yzz_QbA'],
+            ['Home fries with peppers', 'H-39Vuw5Jtg'],
+            ['Beans and Rice', 'UOtE_mrV3SY']
         ]);
 
     return (

@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update: reordered dailies, tuna salad video added to food!'
+    let updateMsg = 'content update: updated dailies, new food videos!'
 
     function whatsNew() {
         Swal.fire({
