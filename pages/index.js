@@ -23,10 +23,10 @@ export default function Home() {
             "Success is found in the work you're avoiding"
           </h3>
           <h3>
-            "Arm yourself because nobody else here will save you"
+            "You can make any excuses you want, but you're the one who decides how to live your life"
           </h3>
           <h3>
-            "You can make any excuses you want, but you're the one who decides how to live your life"
+            Backlog: Set up database/backend, make art references page
           </h3>
 
           <Todolist />
