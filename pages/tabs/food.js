@@ -26,7 +26,10 @@ export default function Food() {
             ['Extra Crispy Baked Wings', 'mh2AXh1eRmE'],
             ['Tuna, Egg, and Chicken Salad', 'wSn8Yzz_QbA'],
             ['Home fries with peppers', 'H-39Vuw5Jtg'],
-            ['Beans and Rice', 'UOtE_mrV3SY']
+            ['Beans and Rice', 'UOtE_mrV3SY'],
+            ['Suburban Mom Enchiladas', 'KdbWEjWnXPA'],
+            ['Meg\'s Dinner (Binging with Babish)', '6NOtF4l9i9g'],
+            ['Tender Chicken Congee', 't2SahnNVULA']
         ]);
 
     return (

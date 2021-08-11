@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update: big dailies change, quotes changed!'
+    let updateMsg = 'content update: new food!'
 
     function whatsNew() {
         Swal.fire({
