@@ -20,30 +20,24 @@ export default function Physical() {
                     </h1>
                     <div className={utilStyles.listcontainer}>
                         <h3>
-                            Gym:
+                            Main Lifts
                         </h3>
                         <ul>
-                            <li>Daily (? Work on schedule)</li>
-                            <li>Run more/ do more sets/ more exercises</li>
-                            <li>Stretch</li>
-                            <li>Consider investing in personal gym set</li>
+                            <li>Bench Press</li>
+                            <li>Pull ups</li>
+                            <li>Dips</li>
+                            <li>leg raises/windshield wipers</li>
+                            <li>Squats/Leg press</li>
                         </ul>
 
                         <h3>
-                            Food:
+                            Dumbbell Circuit
                         </h3>
                         <ul>
-                            <li>Portion size</li>
-                            <li>No/less drinks</li>
-                            <li>Cook more?</li>
-                        </ul>
-
-                        <h3>
-                            Skincare:
-                        </h3>
-                        <ul>
-                            <li>Hyalauronic acid (fran rec)</li>
-                            <li>Paula’s choice liquid exfoliant (smells weird? Saw from daph video, can check strips instead) </li>
+                            <li>Curls</li>
+                            <li>Squat and shoulder press</li>
+                            <li>Row and deadlift</li>
+                            <li>Lu raises</li>
                         </ul>
                     </div>
                 </main>

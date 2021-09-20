@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'content update: new food!'
+    let updateMsg = 'updated dailies, updated quotes, workout page revamp'
 
     function whatsNew() {
         Swal.fire({
@@ -42,6 +42,7 @@ export default function layout({ children }) {
                     <div className={styles.sidebar}>
                         <Link href='/'><a>Home</a></Link> <br />
                         <Link href='/tabs/food'><a>Food</a></Link>
+                        <Link href='/tabs/physical'><a>Physical</a></Link>
                         
                     </div>
                 )}

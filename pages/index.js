@@ -26,6 +26,12 @@ export default function Home() {
             "You can make any excuses you want, but you're the one who decides how to live your life"
           </h3>
           <h3>
+            If you shoot at nothing, you'll hit nothing
+          </h3>
+          <h3>
+            If you need to be taught to do anything, being taught won't change anything
+          </h3>
+          <h3>
             Backlog: Set up database/backend, make art references page
           </h3>
 
