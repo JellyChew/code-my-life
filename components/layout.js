@@ -41,8 +41,8 @@ export default function layout({ children }) {
                 {(showSidebar && 
                     <div className={styles.sidebar}>
                         <Link href='/'><a>Home</a></Link> <br />
-                        <Link href='/tabs/food'><a>Food</a></Link>
-                        <Link href='/tabs/physical'><a>Physical</a></Link>
+                        <Link href='/tabs/food'><a>Food</a></Link> <br />
+                        <Link href='/tabs/physical'><a>Physical</a></Link> <br />
                         
                     </div>
                 )}
