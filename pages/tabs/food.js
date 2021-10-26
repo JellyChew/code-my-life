@@ -29,7 +29,9 @@ export default function Food() {
             ['Beans and Rice', 'UOtE_mrV3SY'],
             ['Suburban Mom Enchiladas', 'KdbWEjWnXPA'],
             ['Meg\'s Dinner (Binging with Babish)', '6NOtF4l9i9g'],
-            ['Tender Chicken Congee', 't2SahnNVULA']
+            ['Tender Chicken Congee', 't2SahnNVULA'],
+            ['Super Stretchy Hand Pulled Noodles', '0VveQe8zbuU'],
+            ['Chilled Sesame Noodles', 'wBeuHw9kQmo']
         ]);
 
     return (
