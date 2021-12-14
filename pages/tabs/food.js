@@ -31,7 +31,8 @@ export default function Food() {
             ['Meg\'s Dinner (Binging with Babish)', '6NOtF4l9i9g'],
             ['Tender Chicken Congee', 't2SahnNVULA'],
             ['Super Stretchy Hand Pulled Noodles', '0VveQe8zbuU'],
-            ['Chilled Sesame Noodles', 'wBeuHw9kQmo']
+            ['Chilled Sesame Noodles', 'wBeuHw9kQmo'],
+            ['Halal Guys style Chicken & Rice', 'Y645_5ikaYo']
         ]);
 
     return (
