@@ -32,7 +32,9 @@ export default function Food() {
             ['Tender Chicken Congee', 't2SahnNVULA'],
             ['Super Stretchy Hand Pulled Noodles', '0VveQe8zbuU'],
             ['Chilled Sesame Noodles', 'wBeuHw9kQmo'],
-            ['Halal Guys style Chicken & Rice', 'Y645_5ikaYo']
+            ['Halal Guys style Chicken & Rice', 'Y645_5ikaYo'],
+            ['Korean Braised Spicy Chicken', 'G05-HT71VDI'],
+            ['Crab and pumpkin tofu', 'FKgw_M7ayQ4']
         ]);
 
     return (

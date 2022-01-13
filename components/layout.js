@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'updated dailies, updated quotes, workout page revamp'
+    let updateMsg = 'Added 2 food items, and anti-sit workout routines to phys page!'
 
     function whatsNew() {
         Swal.fire({

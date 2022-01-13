@@ -39,6 +39,26 @@ export default function Physical() {
                             <li>Row and deadlift</li>
                             <li>Lu raises</li>
                         </ul>
+
+                        <h3>
+                            <a href={'https://youtube.com/watch?v=RqcOCBb4arc'}>Posture Routine 1</a>
+                        </h3>
+                        <ul>
+                            <li>Cobra Stretch (10-15 slow reps)</li>
+                            <li>Up and Overs (5-10 slow reps with pause at top)</li>
+                            <li>Stand and Reach (5-10 reaches each side, pause at end position)</li>
+                            <li>Wall Slides with Chin Nod (2 sets of 10-15 reps)</li>
+                        </ul>
+
+                        <h3>
+                            <a href={'https://youtube.com/watch?v=RqcOCBb4arc'}>Posture Routine 2</a>
+                        </h3>
+                        <ul>
+                            <li>Elbows Floor to Ceiling (10 reps each side with pause at top)</li>
+                            <li>Kneeling Hip Flexor Stretch (30-45 second holds each side)</li>
+                            <li>Pigeon Stretch (30-45 second holds each side)</li>
+                            <li>Glute Bridges (2 sets of 10-15 reps with pause at top position)</li>
+                        </ul>
                     </div>
                 </main>
             </div>
