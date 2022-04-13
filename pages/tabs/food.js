@@ -35,7 +35,7 @@ export default function Food() {
             ['Halal Guys style Chicken & Rice', 'Y645_5ikaYo'],
             ['Korean Braised Spicy Chicken', 'G05-HT71VDI'],
             ['Crab and pumpkin tofu', 'FKgw_M7ayQ4'],
-            ['Hainan Chicken Rice', 'XPA3rn1XlmY'],
+            ['Hainan Chicken Rice', 'XPA3rn1XImY'],
             ['Honey Garlic Shrimp', 'vUtdqSXzupM'],
             ['Braised Chicken with Cabbage, Bacon, and Potatoes', '7oyBU-kMYzA'],
             ['Spaghetti alle Vongole', '1Tcdc1W9u54']
