@@ -34,7 +34,11 @@ export default function Food() {
             ['Chilled Sesame Noodles', 'wBeuHw9kQmo'],
             ['Halal Guys style Chicken & Rice', 'Y645_5ikaYo'],
             ['Korean Braised Spicy Chicken', 'G05-HT71VDI'],
-            ['Crab and pumpkin tofu', 'FKgw_M7ayQ4']
+            ['Crab and pumpkin tofu', 'FKgw_M7ayQ4'],
+            ['Hainan Chicken Rice', 'XPA3rn1XlmY'],
+            ['Honey Garlic Shrimp', 'vUtdqSXzupM'],
+            ['Braised Chicken with Cabbage, Bacon, and Potatoes', '7oyBU-kMYzA'],
+            ['Spaghetti alle Vongole', '1Tcdc1W9u54']
         ]);
 
     return (
