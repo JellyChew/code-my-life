@@ -19,7 +19,7 @@ export default function layout({ children }) {
         setShowSidebar(!showSidebar);
     }
 
-    let updateMsg = 'Lots of new food items!'
+    let updateMsg = 'More food items'
 
     function whatsNew() {
         Swal.fire({

@@ -38,7 +38,11 @@ export default function Food() {
             ['Hainan Chicken Rice', 'XPA3rn1XImY'],
             ['Honey Garlic Shrimp', 'vUtdqSXzupM'],
             ['Braised Chicken with Cabbage, Bacon, and Potatoes', '7oyBU-kMYzA'],
-            ['Spaghetti alle Vongole', '1Tcdc1W9u54']
+            ['Spaghetti alle Vongole', '1Tcdc1W9u54'],
+            ['Century Egg & Pork Congee', 'qPQ8Dr5XgS4'],
+            ['Juicy Wontons', 'Fy-8dfRpG6E'],
+            ['Eggplant with garlic sauce', 'lWJpq0MRHAs'],
+            ['Clay pot rice', 'TiEjoTehvvM']
         ]);
 
     return (
